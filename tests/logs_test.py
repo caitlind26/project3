@@ -1,8 +1,11 @@
-"""Tests debug file"""
 
-def test_debug_file(client):
-    response = client.get("/logs")
-    assert response.status_code == 200
-    assert b"Add" in response.data
+"""Tests debug file"""
+import logging
+import unittest
+
+import logs
+class DebugTest(unittest.TestCase):
+    def test_debug_file(self):
+        self.assertLogs(self, logging.DEBUG)
 
 """Tests request log file is created"""
