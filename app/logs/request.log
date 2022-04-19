@@ -1,0 +1,8 @@
+2022-04-19 13:12:43,054 [INFO] root: URL: http://localhost/ , Remote Address: 172.21.0.1 , Request Method: GET , Request Path: /, IP: 172.21.0.1, Host: localhost
+2022-04-19 13:12:43,055 [INFO] root: URL: http://localhost/ , Remote Address: 172.21.0.1 , Request Method: GET , Request Path: /, IP: 172.21.0.1, Host: localhost
+2022-04-19 13:12:43,056 [INFO] app: Before Request
+2022-04-19 13:12:43,057 [INFO] root: URL: http://localhost/ , Remote Address: 172.21.0.1 , Request Method: GET , Request Path: /, IP: 172.21.0.1, Host: localhost
+2022-04-19 13:12:43,058 [INFO] root: URL: http://localhost/ , Remote Address: 172.21.0.1 , Request Method: GET , Request Path: /, IP: 172.21.0.1, Host: localhost
+2022-04-19 13:12:43,202 [INFO] app: After Request
+2022-04-19 13:12:43,213 [INFO] root: URL: http://localhost/ , Remote Address: 172.21.0.1 , Request Method: GET , Request Path: /, IP: 172.21.0.1, Host: localhost
+2022-04-19 13:12:43,214 [INFO] root: URL: http://localhost/ , Remote Address: 172.21.0.1 , Request Method: GET , Request Path: /, IP: 172.21.0.1, Host: localhost
