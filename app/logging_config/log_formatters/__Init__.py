@@ -1,18 +1,6 @@
 import logging
 from flask import has_request_context, request
 
-#logger = logging.getLogger(__name__)
-#logger.setLevel(logging.INFO)
-#formatter = logging.Formatter('%(asctime)s] [%(process)d] %(remote_addr)s requested %(url)s'
-                       # '%(levelname)s in %(module)s: %(message)s')
-
-#file_handler = logging.FileHandler('request.log')
-#file_handler.setFormatter(formatter)
-
-#logger.addHandler(file_handler)
-
-
-
 class RequestFormatter(logging.Formatter):
     def format(self, record):
         if has_request_context():

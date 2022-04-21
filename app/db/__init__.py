@@ -1,6 +1,7 @@
 from flask import Blueprint, cli
 from flask_sqlalchemy import SQLAlchemy
 
+
 db = SQLAlchemy()
 
 database = Blueprint('database', __name__,)
